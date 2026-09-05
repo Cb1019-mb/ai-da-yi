@@ -1,0 +1,30 @@
+{
+  "female": [
+    { "type": "沙漏型", "features": "肩≈胯，腰明显细", "strategy": "强调腰线：收腰/高腰/腰带，几乎百搭" },
+    { "type": "梨形", "features": "肩窄胯宽", "strategy": "上浅下深、A字裙、阔腿裤、V领突出上半身" },
+    { "type": "苹果形", "features": "腰腹集中", "strategy": "V领拉长、高腰线、直线剪裁、避免紧身腰腹" },
+    { "type": "矩形", "features": "肩≈腰≈胯，曲线弱", "strategy": "制造腰线：腰带、层次叠穿、oversize、A字" },
+    { "type": "倒三角", "features": "肩宽胯窄", "strategy": "下装加量：A字裙、阔腿裤、避免垫肩/泡泡袖" }
+  ],
+  "male": [
+    { "type": "梯形", "features": "肩略宽于腰胯，比例匀称", "strategy": "几乎百搭，正常剪裁即可" },
+    { "type": "倒三角", "features": "肩很宽，腰胯窄", "strategy": "下装选直筒/微阔保持平衡，避免过度收腰" },
+    { "type": "矩形", "features": "肩≈腰≈胯，直线条", "strategy": "用层次/外套制造肩腰比，避免全身宽松" },
+    { "type": "椭圆", "features": "腰腹突出", "strategy": "深色、竖条纹、V领拉长，避免紧身和浅色横纹" },
+    { "type": "梨形", "features": "肩窄胯宽", "strategy": "上装加宽（垫肩/廓形外套）、下装深色直筒" }
+  ],
+  "scoring": [
+    { "gender": "female", "body_type": "梨形", "slot": "下装", "attribute": "颜色=深色", "effect": 1 },
+    { "gender": "female", "body_type": "梨形", "slot": "下装", "attribute": "颜色=浅色/亮色", "effect": -1 },
+    { "gender": "female", "body_type": "苹果形", "slot": "上装", "attribute": "版型=紧身", "effect": -1 },
+    { "gender": "female", "body_type": "矩形", "slot": "任意", "attribute": "有腰带/高腰线", "effect": 1 },
+    { "gender": "female", "body_type": "倒三角", "slot": "下装", "attribute": "版型=阔腿/A字", "effect": 1 },
+    { "gender": "female", "body_type": "沙漏型", "slot": "任意", "attribute": "收腰/高腰", "effect": 1 },
+    { "gender": "male", "body_type": "倒三角", "slot": "下装", "attribute": "版型=直筒/微阔", "effect": 1 },
+    { "gender": "male", "body_type": "椭圆", "slot": "任意", "attribute": "颜色=深色", "effect": 1 },
+    { "gender": "male", "body_type": "椭圆", "slot": "上装", "attribute": "版型=紧身", "effect": -1 },
+    { "gender": "male", "body_type": "矩形", "slot": "任意", "attribute": "有层次/外套", "effect": 1 },
+    { "gender": "male", "body_type": "梨形", "slot": "上装", "attribute": "版型=廓形/垫肩", "effect": 1 },
+    { "gender": "male", "body_type": "梨形", "slot": "下装", "attribute": "颜色=深色", "effect": 1 }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "male": [
+    { "name": "商务正装", "formal_level": 5, "exposure": [0, 1], "color_tendency": ["#1F2937", "#3B4A5A", "#FFFFFF", "#0F172A"], "required_items": ["西装外套", "衬衫", "西裤", "皮鞋"], "features": ["直线剪裁", "深色系", "低饱和"] },
+    { "name": "商务休闲", "formal_level": 4, "exposure": [0, 2], "color_tendency": ["#2F3E46", "#A8A29E", "#E7E5E4", "#7C6A46"], "required_items": ["衬衫", "休闲裤", "乐福鞋"], "features": ["smart casual", "柔和中性色"] },
+    { "name": "街头", "formal_level": 1, "exposure": [0, 3], "color_tendency": ["#111827", "#EF4444", "#F59E0B", "#3B82F6"], "required_items": ["卫衣", "工装裤", "运动鞋"], "features": ["oversize", "撞色", "logo"] },
+    { "name": "日系", "formal_level": 2, "exposure": [0, 2], "color_tendency": ["#F5F5F4", "#D6D3D1", "#78716C", "#A8A29E"], "required_items": ["宽松衬衫", "直筒裤", "帆布鞋"], "features": ["宽松", "层次", "低饱和"] },
+    { "name": "工装", "formal_level": 2, "exposure": [0, 2], "color_tendency": ["#3F3F36", "#6B5B3E", "#8B7D6B", "#2F2F2A"], "required_items": ["工装裤", "夹克", "靴子"], "features": ["多口袋", "大地色", "耐磨"] },
+    { "name": "美式复古", "formal_level": 2, "exposure": [0, 2], "color_tendency": ["#7C3A2D", "#C19A6B", "#3B4A5A", "#D97706"], "required_items": ["皮衣", "牛仔裤", "靴子"], "features": ["格纹", "牛仔", "棕/酒红"] },
+    { "name": "极简", "formal_level": 3, "exposure": [0, 2], "color_tendency": ["#FFFFFF", "#111111", "#9CA3AF", "#374151"], "required_items": ["基础T恤", "直筒裤", "帆布鞋"], "features": ["纯色", "基础款", "黑白灰"] },
+    { "name": "户外机能", "formal_level": 2, "exposure": [0, 2], "color_tendency": ["#3A3F44", "#5B6B4E", "#1F2937", "#F97316"], "required_items": ["冲锋衣", "机能裤", "运动鞋"], "features": ["防水", "多口袋", "高对比"] }
+  ],
+  "female": [
+    { "name": "通勤", "formal_level": 4, "exposure": [0, 2], "color_tendency": ["#2F3E46", "#E7E5E4", "#B7A99A", "#7C6A46"], "required_items": ["衬衫", "西裤", "乐福鞋"], "features": ["得体", "中性色+低饱和点缀"] },
+    { "name": "法式", "formal_level": 3, "exposure": [0, 3], "color_tendency": ["#F5F0E6", "#C19A6B", "#7C3A2D", "#1F3A5F"], "required_items": ["针织衫", "直筒裤", "丝巾"], "features": ["米白/驼/酒红/海军蓝", "优雅"] },
+    { "name": "韩系", "formal_level": 2, "exposure": [0, 3], "color_tendency": ["#F3ECE2", "#D9CBB8", "#9FB6C9", "#E8B4B8"], "required_items": ["宽松外套", "直筒裤", "帆布鞋"], "features": ["宽松", "叠穿", "奶油色"] },
+    { "name": "日系", "formal_level": 2, "exposure": [0, 2], "color_tendency": ["#EDE6DA", "#CBBFA8", "#7A8B72", "#A8A29E"], "required_items": ["棉麻衬衫", "阔腿裤", "帆布鞋"], "features": ["棉麻", "宽松", "大地色"] },
+    { "name": "甜美", "formal_level": 2, "exposure": [0, 3], "color_tendency": ["#FDE2E4", "#FFD6E0", "#F8E8EE", "#E8D1DC"], "required_items": ["连衣裙", "针织开衫", "玛丽珍鞋"], "features": ["浅粉", "蕾丝", "柔美"] },
+    { "name": "复古", "formal_level": 3, "exposure": [0, 3], "color_tendency": ["#7C3A2D", "#D97706", "#3B4A5A", "#C19A6B"], "required_items": ["格纹裙", "牛仔", "乐福鞋"], "features": ["格纹", "喇叭裤", "棕/酒红"] },
+    { "name": "Y2K", "formal_level": 1, "exposure": [1, 4], "color_tendency": ["#F472B6", "#A855F7", "#22D3EE", "#FDE047"], "required_items": ["短上衣", "低腰裤", "厚底鞋"], "features": ["高饱和撞色", "亮片", "短款"] },
+    { "name": "新中式", "formal_level": 3, "exposure": [0, 2], "color_tendency": ["#1F2937", "#B91C1C", "#1E3A5F", "#E7E5E4"], "required_items": ["立领上衣", "阔腿裤", "真丝"], "features": ["盘扣", "玄青/朱红/黛蓝/玉白"] },
+    { "name": "极简", "formal_level": 3, "exposure": [0, 2], "color_tendency": ["#FFFFFF", "#111111", "#9CA3AF", "#374151"], "required_items": ["基础T恤", "直筒裤", "乐福鞋"], "features": ["纯色", "黑白灰", "基础款"] },
+    { "name": "波西米亚", "formal_level": 2, "exposure": [1, 3], "color_tendency": ["#D97706", "#B45309", "#6B5B3E", "#8B5E3C"], "required_items": ["印花长裙", "流苏", "草编包"], "features": ["流苏", "印花", "暖橙/陶土/橄榄"] }
+  ]
+}

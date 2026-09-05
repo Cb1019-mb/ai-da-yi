@@ -1,0 +1,184 @@
+[
+  {
+    "name": "通勤", "gender": "female",
+    "description": "白衬衫 + 藏青西裤 + 乐福鞋，干净利落的职场感",
+    "image": "female_tongqin.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "衬衫", "colorMain": "#FFFFFF", "fit": "修身", "material": "棉", "formalLevel": 4, "exposure": 1, "styleTags": ["通勤"] },
+      { "slot": "bottom", "categoryName": "西裤", "colorMain": "#1F3A5F", "fit": "直筒", "material": "涤纶", "formalLevel": 4, "exposure": 1, "styleTags": ["通勤"] },
+      { "slot": "shoes", "categoryName": "乐福鞋", "colorMain": "#1E1D1B", "formalLevel": 4, "exposure": 0, "styleTags": ["通勤"] }
+    ]
+  },
+  {
+    "name": "法式", "gender": "female",
+    "description": "米白针织 + 直筒裤 + 丝巾，慵懒又优雅",
+    "image": "female_fashi.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "针织衫", "colorMain": "#F0E6D3", "fit": "标准", "material": "羊毛", "formalLevel": 3, "exposure": 1, "styleTags": ["法式"] },
+      { "slot": "bottom", "categoryName": "直筒裤", "colorMain": "#1F3A5F", "fit": "直筒", "formalLevel": 3, "exposure": 1, "styleTags": ["法式"] },
+      { "slot": "shoes", "categoryName": "乐福鞋", "colorMain": "#B08968", "formalLevel": 3, "exposure": 0, "styleTags": ["法式"] },
+      { "slot": "accessory", "categoryName": "丝巾", "colorMain": "#B8604A", "styleTags": ["法式"] }
+    ]
+  },
+  {
+    "name": "韩系", "gender": "female",
+    "description": "奶油色宽松外套 + 直筒裤，温柔日常",
+    "image": "female_hanxi.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "宽松外套", "colorMain": "#F0E6D3", "fit": "oversize", "formalLevel": 2, "exposure": 1, "styleTags": ["韩系"] },
+      { "slot": "bottom", "categoryName": "直筒裤", "colorMain": "#D8CFC0", "fit": "直筒", "formalLevel": 2, "exposure": 1, "styleTags": ["韩系"] },
+      { "slot": "shoes", "categoryName": "帆布鞋", "colorMain": "#FFFFFF", "formalLevel": 2, "exposure": 0, "styleTags": ["韩系"] }
+    ]
+  },
+  {
+    "name": "日系", "gender": "female",
+    "description": "棉麻衬衫 + 阔腿裤，自然舒适",
+    "image": "female_rixi.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "棉麻衬衫", "colorMain": "#D8CFC0", "fit": "宽松", "material": "麻", "formalLevel": 2, "exposure": 1, "styleTags": ["日系"] },
+      { "slot": "bottom", "categoryName": "阔腿裤", "colorMain": "#B7A68A", "fit": "阔腿", "material": "棉", "formalLevel": 2, "exposure": 1, "styleTags": ["日系"] },
+      { "slot": "shoes", "categoryName": "帆布鞋", "colorMain": "#FFFFFF", "formalLevel": 2, "exposure": 0, "styleTags": ["日系"] }
+    ]
+  },
+  {
+    "name": "甜美", "gender": "female",
+    "description": "浅粉连衣裙 + 针织开衫，甜美柔和",
+    "image": "female_tianmei.jpg",
+    "items": [
+      { "slot": "dress", "categoryName": "连衣裙", "colorMain": "#E7A8B8", "fit": "收腰", "formalLevel": 2, "exposure": 2, "styleTags": ["甜美"] },
+      { "slot": "top", "categoryName": "针织开衫", "colorMain": "#F0E6D3", "fit": "标准", "material": "针织", "formalLevel": 2, "exposure": 1, "styleTags": ["甜美"] },
+      { "slot": "shoes", "categoryName": "乐福鞋", "colorMain": "#FFFFFF", "formalLevel": 2, "exposure": 0, "styleTags": ["甜美"] }
+    ]
+  },
+  {
+    "name": "复古", "gender": "female",
+    "description": "格纹半裙 + 针织衫 + 乐福鞋，复古文艺",
+    "image": "female_fugu.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "针织衫", "colorMain": "#B08968", "fit": "标准", "formalLevel": 3, "exposure": 1, "styleTags": ["复古"] },
+      { "slot": "bottom", "categoryName": "半身裙", "colorMain": "#7C3A2D", "pattern": "格纹", "fit": "A字", "formalLevel": 3, "exposure": 2, "styleTags": ["复古"] },
+      { "slot": "shoes", "categoryName": "乐福鞋", "colorMain": "#1E1D1B", "formalLevel": 3, "exposure": 0, "styleTags": ["复古"] }
+    ]
+  },
+  {
+    "name": "Y2K", "gender": "female",
+    "description": "亮粉短上衣 + 低腰裤，青春活力",
+    "image": "female_y2k.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "短上衣", "colorMain": "#E7A8B8", "fit": "修身", "formalLevel": 1, "exposure": 3, "styleTags": ["Y2K"] },
+      { "slot": "bottom", "categoryName": "低腰裤", "colorMain": "#7D9BB5", "fit": "修身", "formalLevel": 1, "exposure": 2, "styleTags": ["Y2K"] },
+      { "slot": "shoes", "categoryName": "厚底鞋", "colorMain": "#FFFFFF", "formalLevel": 1, "exposure": 0, "styleTags": ["Y2K"] }
+    ]
+  },
+  {
+    "name": "新中式", "gender": "female",
+    "description": "玉白立领上衣 + 黛蓝阔腿裤，东方雅致",
+    "image": "female_xinzhongshi.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "立领上衣", "colorMain": "#F0E6D3", "fit": "标准", "material": "真丝", "formalLevel": 3, "exposure": 1, "styleTags": ["新中式"] },
+      { "slot": "bottom", "categoryName": "阔腿裤", "colorMain": "#27344D", "fit": "阔腿", "material": "真丝", "formalLevel": 3, "exposure": 1, "styleTags": ["新中式"] },
+      { "slot": "shoes", "categoryName": "乐福鞋", "colorMain": "#1E1D1B", "formalLevel": 3, "exposure": 0, "styleTags": ["新中式"] }
+    ]
+  },
+  {
+    "name": "极简", "gender": "female",
+    "description": "基础 T 恤 + 直筒裤，少即是多",
+    "image": "female_jijian.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "T恤", "colorMain": "#FFFFFF", "fit": "标准", "material": "棉", "formalLevel": 3, "exposure": 1, "styleTags": ["极简"] },
+      { "slot": "bottom", "categoryName": "直筒裤", "colorMain": "#1E1D1B", "fit": "直筒", "formalLevel": 3, "exposure": 1, "styleTags": ["极简"] },
+      { "slot": "shoes", "categoryName": "乐福鞋", "colorMain": "#1E1D1B", "formalLevel": 3, "exposure": 0, "styleTags": ["极简"] }
+    ]
+  },
+  {
+    "name": "波西米亚", "gender": "female",
+    "description": "印花长裙 + 流苏包，自由随性",
+    "image": "female_boho.jpg",
+    "items": [
+      { "slot": "dress", "categoryName": "印花长裙", "colorMain": "#B8604A", "pattern": "印花", "fit": "宽松", "formalLevel": 2, "exposure": 3, "styleTags": ["波西米亚"] },
+      { "slot": "shoes", "categoryName": "凉鞋", "colorMain": "#B08968", "formalLevel": 2, "exposure": 2, "styleTags": ["波西米亚"] },
+      { "slot": "accessory", "categoryName": "草编包", "colorMain": "#C08A3E", "styleTags": ["波西米亚"] }
+    ]
+  },
+  {
+    "name": "商务正装", "gender": "male",
+    "description": "藏青西装 + 白衬衫 + 皮鞋，稳重得体",
+    "image": "male_shangwu.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "西装外套", "colorMain": "#1F3A5F", "fit": "修身", "material": "羊毛", "formalLevel": 5, "exposure": 1, "styleTags": ["商务正装"] },
+      { "slot": "top", "categoryName": "衬衫", "colorMain": "#FFFFFF", "fit": "修身", "material": "棉", "formalLevel": 5, "exposure": 1, "styleTags": ["商务正装"] },
+      { "slot": "bottom", "categoryName": "西裤", "colorMain": "#1F3A5F", "fit": "直筒", "formalLevel": 5, "exposure": 1, "styleTags": ["商务正装"] },
+      { "slot": "shoes", "categoryName": "皮鞋", "colorMain": "#1E1D1B", "formalLevel": 5, "exposure": 0, "styleTags": ["商务正装"] }
+    ]
+  },
+  {
+    "name": "商务休闲", "gender": "male",
+    "description": "衬衫 + 卡其休闲裤 + 乐福鞋，Smart Casual",
+    "image": "male_xiuxian.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "衬衫", "colorMain": "#7D9BB5", "fit": "标准", "material": "棉", "formalLevel": 4, "exposure": 1, "styleTags": ["商务休闲"] },
+      { "slot": "bottom", "categoryName": "休闲裤", "colorMain": "#B7A68A", "fit": "直筒", "formalLevel": 4, "exposure": 1, "styleTags": ["商务休闲"] },
+      { "slot": "shoes", "categoryName": "乐福鞋", "colorMain": "#5C4033", "formalLevel": 4, "exposure": 0, "styleTags": ["商务休闲"] }
+    ]
+  },
+  {
+    "name": "街头", "gender": "male",
+    "description": "黑色卫衣 + 军绿工装裤 + 运动鞋，潮酷",
+    "image": "male_jietou.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "卫衣", "colorMain": "#1E1D1B", "fit": "oversize", "material": "棉", "formalLevel": 1, "exposure": 1, "styleTags": ["街头"] },
+      { "slot": "bottom", "categoryName": "工装裤", "colorMain": "#4C5B3F", "fit": "宽松", "formalLevel": 1, "exposure": 1, "styleTags": ["街头"] },
+      { "slot": "shoes", "categoryName": "运动鞋", "colorMain": "#FFFFFF", "formalLevel": 1, "exposure": 0, "styleTags": ["街头"] }
+    ]
+  },
+  {
+    "name": "日系", "gender": "male",
+    "description": "宽松衬衫 + 直筒裤 + 帆布鞋，清爽干净",
+    "image": "male_rixi.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "宽松衬衫", "colorMain": "#F0E6D3", "fit": "宽松", "material": "棉", "formalLevel": 2, "exposure": 1, "styleTags": ["日系"] },
+      { "slot": "bottom", "categoryName": "直筒裤", "colorMain": "#B7A68A", "fit": "直筒", "formalLevel": 2, "exposure": 1, "styleTags": ["日系"] },
+      { "slot": "shoes", "categoryName": "帆布鞋", "colorMain": "#FFFFFF", "formalLevel": 2, "exposure": 0, "styleTags": ["日系"] }
+    ]
+  },
+  {
+    "name": "工装", "gender": "male",
+    "description": "军绿夹克 + 工装裤 + 靴子，硬朗实用",
+    "image": "male_gongzhuang.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "夹克", "colorMain": "#4C5B3F", "fit": "宽松", "material": "涤纶", "formalLevel": 2, "exposure": 1, "styleTags": ["工装"] },
+      { "slot": "bottom", "categoryName": "工装裤", "colorMain": "#5C4033", "fit": "宽松", "formalLevel": 2, "exposure": 1, "styleTags": ["工装"] },
+      { "slot": "shoes", "categoryName": "靴子", "colorMain": "#1E1D1B", "formalLevel": 2, "exposure": 0, "styleTags": ["工装"] }
+    ]
+  },
+  {
+    "name": "美式复古", "gender": "male",
+    "description": "棕皮衣 + 牛仔裤 + 靴子，复古硬朗",
+    "image": "male_meishi.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "皮衣", "colorMain": "#5C4033", "fit": "标准", "material": "皮革", "formalLevel": 2, "exposure": 1, "styleTags": ["美式复古"] },
+      { "slot": "bottom", "categoryName": "牛仔裤", "colorMain": "#1F3A5F", "fit": "直筒", "material": "牛仔", "formalLevel": 2, "exposure": 1, "styleTags": ["美式复古"] },
+      { "slot": "shoes", "categoryName": "靴子", "colorMain": "#5C4033", "formalLevel": 2, "exposure": 0, "styleTags": ["美式复古"] }
+    ]
+  },
+  {
+    "name": "极简", "gender": "male",
+    "description": "白 T + 黑直筒裤 + 帆布鞋，清爽利落",
+    "image": "male_jijian.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "T恤", "colorMain": "#FFFFFF", "fit": "标准", "material": "棉", "formalLevel": 3, "exposure": 1, "styleTags": ["极简"] },
+      { "slot": "bottom", "categoryName": "直筒裤", "colorMain": "#1E1D1B", "fit": "直筒", "formalLevel": 3, "exposure": 1, "styleTags": ["极简"] },
+      { "slot": "shoes", "categoryName": "帆布鞋", "colorMain": "#FFFFFF", "formalLevel": 3, "exposure": 0, "styleTags": ["极简"] }
+    ]
+  },
+  {
+    "name": "户外机能", "gender": "male",
+    "description": "灰冲锋衣 + 黑机能裤 + 运动鞋，功能至上",
+    "image": "male_huwai.jpg",
+    "items": [
+      { "slot": "top", "categoryName": "冲锋衣", "colorMain": "#8A8D91", "fit": "宽松", "material": "涤纶", "formalLevel": 2, "exposure": 1, "styleTags": ["户外机能"] },
+      { "slot": "bottom", "categoryName": "机能裤", "colorMain": "#1E1D1B", "fit": "宽松", "formalLevel": 2, "exposure": 1, "styleTags": ["户外机能"] },
+      { "slot": "shoes", "categoryName": "运动鞋", "colorMain": "#1E1D1B", "formalLevel": 2, "exposure": 0, "styleTags": ["户外机能"] }
+    ]
+  }
+]

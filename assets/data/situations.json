@@ -1,0 +1,34 @@
+{
+  "occasions": [
+    { "name": "通勤", "formal_level": 4, "exposure_max": 2, "note": "衬衫/西裤/乐福鞋为主" },
+    { "name": "约会", "formal_level": 3, "exposure_max": 3, "note": "得体且有个人风格" },
+    { "name": "休闲", "formal_level": 2, "exposure_max": 3, "note": "舒适自然" },
+    { "name": "运动", "formal_level": 1, "exposure_max": 3, "note": "运动鞋/运动服" },
+    { "name": "宴会", "formal_level": 5, "exposure_max": 4, "note": "礼服/正装" },
+    { "name": "旅行", "formal_level": 2, "exposure_max": 3, "note": "舒适耐穿" },
+    { "name": "居家", "formal_level": 1, "exposure_max": 3, "note": "宽松舒适" },
+    { "name": "面试", "formal_level": 5, "exposure_max": 1, "note": "正式、保守" }
+  ],
+  "seasons": {
+    "春": { "thickness_range": [1, 3], "material": "棉/针织/薄外套" },
+    "夏": { "thickness_range": [1, 2], "material": "棉麻/真丝/轻薄" },
+    "秋": { "thickness_range": [2, 4], "material": "针织/风衣/牛仔" },
+    "冬": { "thickness_range": [4, 5], "material": "羊毛/羽绒/厚呢" }
+  },
+  "weather": {
+    "temperature": {
+      "冷(<10℃)": [4, 5],
+      "凉(10-18℃)": [3, 4],
+      "适中(18-26℃)": [2, 3],
+      "热(>26℃)": [1, 2]
+    },
+    "rain": { "condition": "需防水/深色下装" },
+    "sun": { "condition": "需防晒/透气" }
+  },
+  "skin_seasons": {
+    "春季型": { "适合": ["珊瑚", "杏色", "暖黄", "奶油", "亮蓝绿"], "避雷": ["纯黑", "冷灰"] },
+    "夏季型": { "适合": ["灰粉", "雾蓝", "薰衣草", "薄荷"], "避雷": ["纯橙", "土黄"] },
+    "秋季型": { "适合": ["驼色", "橄榄", "酒红", "芥末", "铜色"], "避雷": ["荧光", "冰蓝"] },
+    "冬季型": { "适合": ["正红", "纯白", "宝蓝", "玫红"], "避雷": ["卡其", "浑浊色"] }
+  }
+}

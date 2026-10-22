@@ -1,6 +1,10 @@
 # 爱搭衣 (Ai Da Yi)
 
-一个纯本地的智能穿搭搭配 Android App：以「穿搭知识库 + 色彩算法 + 体型/肤色规则」为内核（**无 AI 模型、无网络、无账号**），从你的衣橱生成可解释的搭配方案与配色说明。
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Platform](https://img.shields.io/badge/platform-Android-green.svg)
+![Flutter](https://img.shields.io/badge/Flutter-stable-02569B.svg)
+
+一个纯本地的智能穿搭搭配 Android App：以「穿搭知识库 + 色彩算法 + 体型/肤色规则」为内核（**无 AI 模型、无网络、无账号**），从你的衣橱生成可解释的搭配方案与配色说明。所有数据（衣橱、档案、收藏、打卡）只保存在你自己的设备上，卸载即清除，没有任何上传。
 
 ## 功能特性
 
@@ -11,7 +15,13 @@
 - **风格模板**：18 套分性别示例搭配（AI 服装平铺图），空衣橱也能出搭配，一键入库
 - **每日推荐**：基于收藏/打卡历史的近期降权，避免重复推荐
 - **记录与统计**：收藏 / OOTD 穿搭打卡、衣橱利用率统计、风格缺口分析
-- **知识库热更新**：`kb_override` 覆盖目录 + 内容哈希自动重导（风格/品类/体型规则/模板均为 JSON 驱动）
+- **知识库热更新**：`kb_override` 覆盖目录 + 内容哈希自动重导（风格/品类/体型规则/模板均为 JSON 驱动），见[知识库热更新](#知识库热更新)
+
+## 技术栈
+
+Flutter (Android) · SQLite (sqflite) · 纯 Dart 规则引擎 · 无任何网络/ML 依赖
+
+数据表结构见 [docs/schema.sql](docs/schema.sql)。
 
 ## 界面预览
 
@@ -25,20 +35,16 @@
 | **配色盘工具** | |
 | ![配色盘](docs/screenshots/color_tool.jpg) | |
 
-## 技术栈
-
-Flutter (Android) · SQLite (sqflite) · 纯 Dart 规则引擎 · 无任何网络/ML 依赖
-
 ## 环境要求
 
-- Flutter SDK（stable 渠道）与 Android SDK / JDK 17+
+- Flutter SDK（stable 渠道，Dart SDK >= 3.0）与 Android SDK / JDK 17+
 - 安装配置参考：https://docs.flutter.dev/get-started/install
 
 ## 运行
 
 ```bash
-git clone <本仓库地址>
-cd <仓库目录>
+git clone https://github.com/Cb1019-mb/ai-da-yi.git
+cd ai-da-yi
 flutter pub get
 flutter test        # 运行全部单元测试
 flutter run         # 连接设备或启动模拟器运行
@@ -72,6 +78,24 @@ storeFile=upload-keystore.jks
 风格 / 品类 / 体型规则 / 搭配模板均为 JSON 驱动（见 `assets/data/`）。把同名 JSON 放入应用文档目录的 `kb_override/` 文件夹（App 内「我的 → 设置 → 知识库热更新」可查看具体路径），重启或点击「重新导入知识库」即生效：
 
 `categories.json` · `styles.json` · `body_types.json` · `style_templates.json`
+
+## FAQ
+
+**需要联网吗？数据会上传吗？**
+不需要，也不会。App 未声明任何网络权限，无账号体系；数据全部保存在设备本地的 SQLite 数据库与应用文档目录中，卸载 App 即全部清除。
+
+**衣橱是空的能用吗？**
+可以。内置 18 套分性别风格模板（AI 服装平铺图），在「智能搭配」中即可直接出方案，并可一键入库作为自己搭配的起点。
+
+**支持 iOS 吗？**
+目前仅支持 Android（仓库只包含 Android 平台目录）。
+
+**想自定义搭配规则/风格/品类？**
+无需改代码，通过[知识库热更新](#知识库热更新)替换对应 JSON 即可。
+
+## 参与
+
+本项目目前为个人维护，暂不接受 Pull Request。使用中遇到问题或有建议，欢迎通过 GitHub Issues 反馈。
 
 ## License
 
